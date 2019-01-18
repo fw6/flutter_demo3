@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class EachView extends StatefulWidget {
-  String _title;
+  final String _title;
   EachView(this._title);
   @override
   _EachViewState createState() => _EachViewState();

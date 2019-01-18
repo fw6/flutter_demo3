@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './frosted_glass.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,9 +8,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.cyan[600]),
-      // home:
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
+      home: Scaffold(
+        body: FrostedGlass(),
+      ),
     );
   }
 }
