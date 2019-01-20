@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './draggable_demo.dart';
+import './splash_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(primaryColor: Colors.cyan),
-      home: DraggableDemo(),
+      theme: ThemeData(primarySwatch: Colors.cyan),
+      home: SplashScreen(),
     );
   }
 }
